@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+    <color name="colorPrimaryDark">#4D4D4D</color>
+    <color name="colorPrimary">#4B4B4B</color>
+    <color name="colorAccent">#4E4E4E</color>
+
+    <color name="colorTotal">#EFEFF4</color>
+    <color name="opBal">#1212</color>
+    <color name="red">#B22222</color>
+    <color name="approvalGreen">#76a057</color>
+    <color name="grey">#D4D4D4</color>
+    <color name="black_d">#565555</color>
+    <color name="nav_white">#FFFFFF</color>
+    <color name="icn_clr">#888888</color>
+    <color name="first_timeload">#888888</color>
+
+
+    <string-array name="colors_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Maroon</item>
+    </string-array>
+
+
+    <!--.......... Sale POS Color Codes .......-->
+    <color name="saleposLTitle1">#616161</color>
+    <color name="saleposLAmt1">#4CAF50</color>
+    <color name="saleposLTitle2">#757575</color>
+    <color name="saleposLdivCl">#E0E0E0</color>
+    <color name="labelsHaderCl">#9E9E9E</color>
+    <color name="floatingbtnCl">#03A9F4</color>
+
+    <color name="tabIndicatorColor">#BDBDBD</color>
+    <color name="tabsavecnclbtn">#0070C3</color>
+    <color name="tabsavecnclbtndiveder">#2196F3</color>
+    <color name="editTextColors">#424242</color>
+    <color name="editpopupbgColor">#FAFAFA</color>
+    <color name="popupViewbgColore">#40000000</color>
+
+    <color name="msgViewBgE">#424242</color>
+    <color name="msgViewBgSu">#FAFAFA</color>
+    <color name="msgViewbtnCl">#80CBC4</color>
+    <color name="dateTex">#727272</color>
+
+
+</resources>

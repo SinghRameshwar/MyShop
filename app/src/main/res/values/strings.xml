@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="ErrorReport">Error report</string>
+    <string name="title_activity_home_tab_master_view">HomeTabMasterView</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

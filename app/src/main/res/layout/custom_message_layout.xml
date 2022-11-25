@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msgMainLay"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="#424242"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/msgTitle"
+        android:layout_width="wrap_content"
+        android:text="Warning"
+        android:textColor="@color/msgViewBgSu"
+        android:textSize="16dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/msgText"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        android:textColor="@color/msgViewBgSu"
+        android:textSize="12dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/msg_ok_btn"
+            android:layout_width="wrap_content"
+            android:textSize="12dp"
+            android:text="ALLOW"
+            android:padding="10dp"
+            android:textColor="@color/msgViewbtnCl"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/msg_cancle_btn"
+            android:layout_width="wrap_content"
+            android:textSize="12dp"
+            android:text="IGNORE"
+            android:layout_marginLeft="16dp"
+            android:padding="10dp"
+            android:textColor="@color/msgViewbtnCl"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

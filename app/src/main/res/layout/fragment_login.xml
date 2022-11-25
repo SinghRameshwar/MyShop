@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".LoginView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/smartResizeLayout"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@id/imgLogo"
+                android:src="@drawable/ic_logo"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="Realbooks Logo" />
+
+            <EditText
+                android:id="@+id/mobile_num"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dip"
+                android:gravity="center"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:text=""
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4B4B4B" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/getOTP_BTN"
+                    android:layout_width="match_parent"
+                    android:text="GENERATE OTP"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:tag="0"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/tabsavecnclbtn"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+                <EditText
+                    android:id="@+id/otpTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/light_container_bg_round"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:tag="0" />
+
+                <TextView
+                    android:id="@+id/otpTimer"
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:padding="5dp"
+                    android:tag="0"
+                    android:gravity="center"
+                    android:textColor="@color/black_d"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>    
+
+    </ScrollView>
+
+</LinearLayout>

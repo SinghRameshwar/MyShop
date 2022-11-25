@@ -1,0 +1,72 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="pading_doc_view">10dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="footerHeight">51dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">221dp</dimen>
+    <dimen name="menu_icon_h_w">16dp</dimen>
+
+    <dimen name="doc_img_width">340dp</dimen>
+    <dimen name="doc_img_hight">500dp</dimen>
+    <dimen name="activity_horizontal_margin_hader">12dp</dimen>
+
+    <dimen name="editTextpading">16dp</dimen>
+
+    <!--....... Sale POS List View Text Size ........-->
+    <dimen name="listTitle1H">16dp</dimen>
+    <dimen name="listTitleAmtH">20dp</dimen>
+    <dimen name="listTitle2">12dp</dimen>
+    <dimen name="listMPad">8dp</dimen>
+    <dimen name="gpbtwnLabels">5dp</dimen>
+    <dimen name="lablesHText">2dp</dimen>
+    <dimen name="tabfontSize">13dp</dimen>
+    <dimen name="savecnclbtntexsize">18dp</dimen>
+    <dimen name="savecnclbtnpading">14dp</dimen>
+    <dimen name="invoiceAmt">22dp</dimen>
+    <dimen name="invoicelayPading">10dp</dimen>
+    <dimen name="taxLedgerViewpading">10dp</dimen>
+    <dimen name="editviewsTaxSize">14dp</dimen>
+
+    <dimen name="textPadingview">12dp</dimen>
+    <dimen name="edittextPadingview">16dp</dimen>
+
+
+    <!--......... Item Add And Edit View..........-->
+    <dimen name="itemViewPad">16dp</dimen>
+    <dimen name="editViewHaderText">16dp</dimen>
+    <dimen name="popupedittextPadingview">10dp</dimen>
+    <dimen name="popupedittextPadingviewitemsearch">12dp</dimen>
+    <dimen name="popupAddClbtnsize">14dp</dimen>
+    <dimen name="scrolingSpaceButtom">155dp</dimen>
+    <dimen name="popupAddClbtnsizepading">16dp</dimen>
+    <dimen name="customerTextsSizes">18dp</dimen>
+    <dimen name="messageTexS">12dp</dimen>
+    <dimen name="messageTexSHader">16dp</dimen>
+    <dimen name="msgViewPading">16dp</dimen>
+    <dimen name="textPadingviewGeneralView">14dp</dimen>
+
+    <!--......... Sale Register List Text Size.............-->
+    <dimen name="text1">16dp</dimen>
+    <dimen name="text2">12dp</dimen>
+    <dimen name="listP">10dp</dimen>
+
+    <dimen name="navigationtitleHader1">20dp</dimen>
+    <dimen name="navigationtitleHader1voucher">16dp</dimen>
+
+    <!--......... Sale Invoice Size.............-->
+    <dimen name="pdfhaderTitle">8dp</dimen>
+    <dimen name="pdfLable">6dp</dimen>
+    <dimen name="pdfrowP">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="piconSizeh">40dp</dimen>
+    <dimen name="piconSizew">40dp</dimen>
+    <dimen name="ptxtSize">12dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+</resources>
