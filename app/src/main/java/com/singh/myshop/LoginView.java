@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.singh.myshop.CrashReport.TopExceptionHandler;
+import com.singh.myshop.TDSRecipt.ResturentBill;
 
 
 public class LoginView extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class LoginView extends AppCompatActivity {
                 return;
             }
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new LoginFragment())
+                    .add(R.id.container, new ResturentBill())
                     .commit();
         }
     }

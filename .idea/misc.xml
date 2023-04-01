@@ -10,12 +10,14 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/dash_board_view.xml" value="0.1171875" />
         <entry key="app/src/main/res/layout/food_list_view.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25793327908869" />
+        <entry key="app/src/main/res/layout/house_rent.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_entry_view.xml" value="0.22" />
         <entry key="app/src/main/res/layout/item_list_cellview.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/item_order_cell.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout/order_list_view.xml" value="0.11822916666666666" />
         <entry key="app/src/main/res/layout/roundbtngrey_gb.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/tds_resturent_bill_lay.xml" value="0.5" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.1578125" />
       </map>
     </option>
